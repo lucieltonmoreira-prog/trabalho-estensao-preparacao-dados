@@ -14,13 +14,18 @@ A coleta foi realizada via Google Forms e exportada para o Excel. Nesta etapa, o
 Utilizando o PyCharm Community Edition, o Python foi a peça central para a "limpeza" dos dados. Através da biblioteca Pandas, realizei as seguintes operações:
 
 Renomeação Estratégica: Redução dos nomes das colunas para termos técnicos curtos, facilitando a manipulação e a legibilidade.
+
 Criação de Grupos Geracionais: Desenvolvimento de uma lógica de segmentação para agrupar os respondentes em três faixas etárias distintas.
+
 Filtragem de Atributos: Seleção exclusiva das variáveis de maior impacto para o estudo (Escolaridade, Intenção na Juventude, Barreiras de Acesso e Percepção Histórica).
+
 Normalização: Garantia de que os dados estivessem prontos para uma integração perfeita com a ferramenta de visualização, Power BI.
 
-3. Visualização e Análise Interativa (Power BI)
+3. Visualização e Análise Interativa (Power BI):
 Com os dados tratados pelo Python, o Power BI Desktop foi utilizado para criar um dashboard interativo. O foco da visualização foi o contraste geracional:
 
 Gráficos de Colunas Agrupadas: Para comparar os níveis de escolaridade entre gerações.
+
 Gráficos 100% Empilhados: Para analisar a intenção de cursar faculdade em diferentes épocas.
+
 Segmentadores Dinâmicos: Filtros que permitem ao usuário navegar pela realidade de cada faixa etária individualmente.
